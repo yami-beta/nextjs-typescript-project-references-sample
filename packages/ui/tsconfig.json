@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo",
     "target": "es2015",
     "module": "commonjs",
     "lib": ["es2018", "dom"],
@@ -7,6 +10,8 @@
     "sourceMap": true,
     "strict": true,
     "noUnusedLocals": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "composite": true,
+    "declaration": true
   }
 }
